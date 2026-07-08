@@ -1,6 +1,10 @@
 # Form Automation Platform
 
-A Python platform for automatically discovering, understanding, storing, and completing web forms.
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Status](https://img.shields.io/badge/status-under%20development-yellow)
+![License](https://img.shields.io/badge/license-TBD-lightgrey)
+
+A modular Python platform for discovering, analyzing, storing, and automatically completing web forms through browser automation and structured HTML analysis.
 
 The project combines browser automation, HTML analysis, and structured data models to provide a reusable framework capable of interacting with virtually any online form.
 
@@ -28,11 +32,12 @@ The goal of this project is to build a generic platform capable of identifying f
 - HTML parsing
 - Form extraction
 - Field classification
+- Support for multiple user profiles
 - Automatic form filling
-- Support for multiple profiles
+- Manual review before submission
+- Export and import of form templates
 - Configuration system
 - CLI interface
-- Export and import of form templates
 - Logging
 - Validation
 - Plugin architecture
@@ -80,67 +85,69 @@ Submission
 
 ## Project Status
 
-Current milestone:
+**Current Version**
 
-- Project Foundation
+v0.1.0 (Development)
 
-Current implementation progress:
+**Current Milestone**
 
-- Repository initialization
-- Architecture definition
-- Development environment setup
+Milestone 2 — Browser Automation
+
+**Overall Progress**
+
+- _Completed_ Milestone 1 — Project Foundation
+- _In Progress_ Milestone 2 — Browser Automation
+- _Waiting_ Milestone 3 — Form Detection
+- _Waiting_ Milestone 4 — Field Classification
+- _Waiting_ Milestone 5 — Storage Layer
+- _Waiting_ Milestone 6 — Automatic Form Filling
+
+## Development Progress
+
+### Milestone 1 — Project Foundation
+
+**Completed**
+
+- Repository initialized with Git and uv
+- Python project configured
+- Modern `src` project layout created
+- Package architecture defined
+- Development tooling configured (Ruff, MyPy, Pytest)
 - Playwright installed and configured
+- Initial architecture documentation created
 
-No browser automation has been implemented yet.
+### Milestone 2 — Browser Automation
+
+**In Progress**
+
+- Browser abstraction layer
+- Browser session management
+- Configuration system
+- Initial Playwright integration
 
 ## Roadmap
 
-Milestone 1
-Project Foundation
-
-Milestone 2
-Browser Automation
-
-Milestone 3
-Form Detection
-
-Milestone 4
-Field Classification
-
-Milestone 5
-Storage Layer
-
-Milestone 6
-Automatic Form Filling
-
-Milestone 7
-Production Release
+- [x] Milestone 1 — Project Foundation
+- [ ] Milestone 2 — Browser Automation
+- [ ] Milestone 3 — Form Detection
+- [ ] Milestone 4 — Field Classification
+- [ ] Milestone 5 — Storage Layer
+- [ ] Milestone 6 — Automatic Form Filling
 
 ## Repository Structure
 
-form-automation-platform/
-├── docs/
-├── examples/
-├── logs/
-├── output/
-├── scripts/
-├── src/
-│ └── form_automation/
-│ ├── browser/
-│ ├── cli/
-│ ├── config/
-│ ├── core/
-│ ├── models/
-│ ├── parser/
-│ ├── services/
-│ ├── storage/
-│ └── utils/
-├── tests/
-├── pyproject.toml
-└── README.md
+```text
+docs/        Project documentation
+examples/    Example forms and sample workflows
+logs/        Development logs (ignored by Git)
+output/      Generated artifacts (ignored by Git)
+scripts/     Development and maintenance scripts
+src/         Application source code
+tests/       Automated tests
+```
 
 ## License
 
-This project is being developed for educational, research, and portfolio purposes.
+This project is currently under active development.
 
-A production license will be defined later.
+The license will be defined before the first public release.
