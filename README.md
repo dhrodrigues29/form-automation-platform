@@ -117,13 +117,26 @@ Production Release
 
 ## Repository Structure
 
-src/
-tests/
-docs/
-examples/
-scripts/
-logs/
-output/
+form-automation-platform/
+├── docs/
+├── examples/
+├── logs/
+├── output/
+├── scripts/
+├── src/
+│ └── form_automation/
+│ ├── browser/
+│ ├── cli/
+│ ├── config/
+│ ├── core/
+│ ├── models/
+│ ├── parser/
+│ ├── services/
+│ ├── storage/
+│ └── utils/
+├── tests/
+├── pyproject.toml
+└── README.md
 
 ## License
 
