@@ -89,6 +89,7 @@ Current implementation progress:
 - Repository initialization
 - Architecture definition
 - Development environment setup
+- Playwright installed and configured
 
 No browser automation has been implemented yet.
 
