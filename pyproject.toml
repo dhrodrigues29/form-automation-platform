@@ -1,0 +1,7 @@
+[project]
+name = "form-automation-platform"
+version = "0.1.0"
+description = "A Python platform for automatically discovering, understanding, storing, and completing web forms."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
